@@ -10,20 +10,19 @@ body {
   overflow-x: hidden;
   font-family: sans-serif;
   background-color: #181c14;
-  color:#ECDFCC;
+  color: #ecdfcc;
 }
-.flex{
-  display:flex;
-  
+.flex {
+  display: flex;
 }
 
 .heading {
-  background-color: #3C3D37;
+  background-color: #3c3d37;
   font-family: sans-serif;
   padding: 1rem;
   h1,
   p {
-   color:#ECDFCC;
+    color: #ecdfcc;
   }
   h1 {
     font-size: 2rem;
@@ -66,8 +65,8 @@ body {
     padding: 1rem;
     outline: none;
     font-size: 1.2rem;
-    background-color: #ECDFCC;
-    color: #181C14;
+    background-color: #ecdfcc;
+    color: #181c14;
     font-weight: 600;
   }
 }
@@ -76,7 +75,7 @@ body {
   display: grid;
   grid-template-columns: repeat(6, 1fr);
   grid-template-rows: repeat(7, 1fr);
-  text-align:center;
+  text-align: center;
   width: 90%;
   margin-left: 4.5rem;
   margin-bottom: 5rem;
@@ -84,41 +83,39 @@ body {
   border-bottom-right-radius: 10px;
 }
 
-
-
-.g1{
+.g1 {
   border: 1px solid white;
-  grid-column:1/7;
-  background-color:#697565;
-  color:#ECDFCC;
-  font-weight:600;
-  font-family:sans-serif;
-  padding-top:1.5rem;
+  grid-column: 1/7;
+  background-color: #697565;
+  color: #ecdfcc;
+  font-weight: 600;
+  font-family: sans-serif;
+  padding-top: 1.5rem;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
 
-.g{
-  color:#697565;
-  font-size:18px;
-  border:1px solid white;
-  background-color:#ECDFCC;
-  font-family:sans-serif;
-  padding-top:0.5rem;
-  justify-content:center;
-  flex-direction:column;
+.g {
+  color: #697565;
+  font-size: 18px;
+  border: 1px solid white;
+  background-color: #ecdfcc;
+  font-family: sans-serif;
+  padding-top: 0.5rem;
+  justify-content: center;
+  flex-direction: column;
   padding-top: 0.8rem;
   font-weight: 700;
 }
 
-.g>div{
+.g > div {
   height: 50%;
   margin-top: 0.8rem;
-  font-size:18px;
-  letter-spacing:6px;
-  background-color:#697565;
-  font-family:sans-serif;
-  padding-top:0.5rem;
-  padding:0.5rem;
-  color: #181C14;
+  font-size: 18px;
+  letter-spacing: 6px;
+  background-color: #697565;
+  font-family: sans-serif;
+  padding-top: 0.5rem;
+  padding: 0.5rem;
+  color: #181c14;
 }
