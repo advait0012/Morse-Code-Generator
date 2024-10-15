@@ -1,5 +1,5 @@
 const textInputEl = document.querySelector(".textInput");
-const morseInput = document.querySelector(".morseInput");
+const morseInputEl = document.querySelector(".morseInput");
 
 const code = {
   a: ".-",
@@ -68,17 +68,17 @@ const code = {
 
 textInputEl.addEventListener("keydown", (e) => {
   if (code[e.key]) {
-    morseInput.value += code[e.key] + " ";
+    morseInputEl.value += code[e.key] + " ";
   } else if (e.key === " ") {
-    morseInput.value += " ";
+    morseInputEl.value += " ";
   }
 });
 
 textInputEl.addEventListener("keydown", (e) => {
   if (e.key === "Backspace") {
-    let morseInputNew = morseInput.value.trim().split(" ");
+    let morseInputNew = morseInputEl.value.trim().split(" ");
     morseInputNew.pop();
     morseInputNew = morseInputNew.join(" ");
-    morseInput.value = morseInputNew;
+    morseInputEl.value = morseInputNew;
   }
 });
